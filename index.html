@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Order your pizza here</title>
+    <!-- Add CSS here -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Heading for the webpage -->
+    <h1>Order your pizza here</h1>
+    <!-- Form for ordering pizza -->
+    <form id="pizzaForm">
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select><br>
+    <!-- Dropdown for selecting pizza crust type -->
+        <label for="crust">Crust:</label>
+        <select id="crust" name="crust">
+            <option value="thin">Thin</option>
+            <option value="thick">Thick</option>
+            <option value="stuffed">Stuffed</option>
+        </select><br>
+    <!-- Input field for entering pizza toppings -->
+        <label for="toppings">Toppings:</label>
+        <input type="text" id="toppings" name="toppings"><br>
+    <!-- Button to submit the pizza order -->
+        <input type="button" value="Order" id="orderButton">
+    </form>
+
+    <p id="200555897"></p>
+    <!-- JavaScript file for handling form submission -->
+    <script src="js/script.js" defer></script>
+</body>
+</html>
